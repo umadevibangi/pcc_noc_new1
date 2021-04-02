@@ -1,0 +1,206 @@
+export const styles = (theme) => ({
+  root: {
+    display: "flex",
+  },
+
+  appBar: {
+    transition: theme.transitions.create(["margin", "width"], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+    color: "#3d358f ",
+    opacity: 1,
+    background: "none",
+    boxshadow: "none",
+    elevation: 0,
+    shadowOpacity: 0,
+    borderBottomWidth: "none",
+  },
+  appBarShift: {
+    width: `calc(100% - ${240}px)`,
+    marginLeft: 240,
+    transition: theme.transitions.create(["margin", "width"], {
+      easing: theme.transitions.easing.easeOut,
+      duration: theme.transitions.duration.enteringScreen,
+    }),
+    color: "#3d358f ",
+    opacity: 1,
+    // background: "#f5f6fa",
+    boxshadow: "none",
+    elevation: 0,
+    shadowOpacity: 0,
+    borderBottomWidth: "none",
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+    marginLeft: "20px",
+  },
+  hide: {
+    display: "none",
+  },
+  drawer: {
+    width: 240,
+    flexShrink: 0,
+  },
+  drawerPaper: {
+    width: 240,
+    background: "#3d358f ",
+    borderTopRightRadius: "10px",
+    borderBottomRightRadius: "10px",
+  },
+
+  leftMenu: {
+    padding: "0 0 0 30px",
+    margin: "60px 0",
+    // borderRadius: "90px",
+  },
+  leftMenulist: {
+    height: "140%",
+  },
+  leftMenu1: {
+    // borderRadius: "90px",
+    background: "#3d358f",
+    webkitBorderRadius: "100px",
+    borderTopRightRadius: "-990px",
+    borderTopLeftRadius: "90px",
+    borderBottomLeftRadius: "90px",
+    borderColor: "#ffffff",
+    marginTop: "1px",
+    height: "30%",
+    color: "#ffffff",
+    "&:focus": {
+      backgroundColor: "#ffffff",
+      color: "#3d358f",
+      height: "20%",
+    },
+  },
+  leftMenu2: {
+    // borderRadius: "90px",
+    background: "#3d358f",
+    webkitBorderRadius: "100px",
+    borderTopRightRadius: "-990px",
+    borderTopLeftRadius: "90px",
+    borderBottomLeftRadius: "90px",
+    borderColor: "#ffffff",
+    marginTop: "1px",
+    height: "30%",
+    color: "#ffffff",
+    "&:focus": {
+      backgroundColor: "#ffffff",
+      color: "#3d358f",
+      height: "20%",
+    },
+  },
+  leftMenu3: {
+    // borderRadius: "90px",
+    background: "#3d358f",
+    webkitBorderRadius: "100px",
+    borderTopRightRadius: "-990px",
+    borderTopLeftRadius: "90px",
+    borderBottomLeftRadius: "90px",
+    borderColor: "#ffffff",
+    marginTop: "1px",
+    height: "30%",
+    color: "#ffffff",
+    "&:focus": {
+      backgroundColor: "#ffffff",
+      color: "#3d358f",
+      height: "20%",
+    },
+  },
+  rtl: {
+    color: "#ffffff",
+  },
+  drawerHeader: {
+    display: "flex",
+    alignItems: "center",
+    padding: theme.spacing(0, 1),
+    // necessary for content to be below app bar
+    ...theme.mixins.toolbar,
+    justifyContent: "flex-end",
+  },
+  content: {
+    flexGrow: 1,
+    padding: theme.spacing(3),
+    transition: theme.transitions.create("margin", {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+    marginLeft: -240,
+  },
+  contentShift: {
+    transition: theme.transitions.create("margin", {
+      easing: theme.transitions.easing.easeOut,
+      duration: theme.transitions.duration.enteringScreen,
+    }),
+    marginLeft: 0,
+  },
+  headerText: {
+    fontSize: "smaller",
+    letterSpacing: "0px",
+    color: "#98a1b2",
+    fontWeight: "normal",
+    marginLeft: "40px",
+  },
+  span: {
+    letterSpacing: "0px",
+    color: "#3d358f",
+    textTransform: "uppercase",
+  },
+  logoutBtn: {
+    marginLeft: "auto",
+    marginRight: "30px",
+  },
+  lockIcon: {
+    color: "#98a1b2",
+    marginTop: "5px",
+  },
+  button: {
+    color: "#fff",
+    background: "#3d358f ",
+    opacity: "1",
+    fontSize: "14px",
+    textTransform: "none",
+    fontWeight: "normal",
+  },
+  ultsLogoSmall: {
+    width: "28px",
+    marginLeft: "5px",
+  },
+  powerdByTextSmall: {
+    marginTop: "50px",
+    letterSpacing: "0px",
+    color: "#98a1b2",
+    opacity: "1",
+    fontSize: "11px",
+  },
+  footerLogo: {
+    width: "100%",
+    position: "absolute",
+    bottom: "20px",
+    textAlign: "center",
+  },
+  LeftMenuIcons: {
+    padding: "0",
+    margin: "0 10px 0 0",
+  },
+  leftMenu: {
+    padding: "0 0 10px 10px",
+    margin: "60px 0",
+  },
+  logoText: {
+    color: "#ffffff",
+    textTransform: "uppercase",
+    opacity: "1",
+    textAlign: "right",
+    fontSize: "small",
+    position: "absolute",
+    right: "40px",
+    top: "30px",
+  },
+  logoKpoliceSmall: {
+    width: "72px",
+    position: "absolute",
+    top: "20px",
+  },
+});
